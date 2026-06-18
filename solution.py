@@ -19,3 +19,16 @@ else:
 # --- YOUR EXTENSION BELOW THIS LINE ---
 # Ideas: Add more conditions, change the topic entirely,
 # or add a second input and a second set of branches.
+
+# User enters the grade
+grade = int(input("Enter your grade:"))
+
+#Output grade based on input
+if grade >= 90 and score <=100:
+    print("A")
+elif grade >= 80:
+    print("B")
+elif grade >= 70:
+    print("C")
+else:
+    print("Fail")
