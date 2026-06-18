@@ -24,7 +24,7 @@ else:
 grade = int(input("Enter your grade:"))
 
 #Output grade based on input
-if grade >= 90 and score <=100:
+if grade >= 90 and grade <=100:
     print("A")
 elif grade >= 80:
     print("B")
